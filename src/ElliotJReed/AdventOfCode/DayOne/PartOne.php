@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace ElliotJReed\AdventOfCode;
+namespace ElliotJReed\AdventOfCode\DayOne;
 
-class DayOne
+class PartOne
 {
     public function solve(string $input): int
     {
