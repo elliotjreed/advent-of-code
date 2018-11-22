@@ -22,11 +22,7 @@
     }
   },
   "require": {
-    "php": "^7.1",
-    "guzzlehttp/guzzle": "^6.3",
-    "monolog/monolog": "^1.24",
-    "ext-simplexml": "*",
-    "ext-json": "*"
+    "php": "^7.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
