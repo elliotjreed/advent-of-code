@@ -5,6 +5,7 @@ declare(strict_types=1);
 require __DIR__ . '/../vendor/autoload.php';
 
 use ElliotJReed\AdventOfCode\DayFour\PartOne;
+use ElliotJReed\AdventOfCode\DayFour\PartTwo;
 
 $challengePartOne = <<<CHALLENGE
 --- Day 4: The Ideal Stocking Stuffer ---
@@ -22,3 +23,14 @@ CHALLENGE;
 echo $challengePartOne . PHP_EOL;
 
 echo 'Solution: ' . (new PartOne())->solve('iwrupvqb') . PHP_EOL;
+
+
+$challengePartTwo = <<<CHALLENGE
+--- Part Two ---
+
+Now find one that starts with six zeroes.
+CHALLENGE;
+
+echo $challengePartTwo . PHP_EOL;
+
+echo 'Solution: ' . (new PartTwo())->solve('iwrupvqb') . PHP_EOL;
