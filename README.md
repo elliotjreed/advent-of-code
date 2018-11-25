@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the [Advent of Code (2015)](https://adventofcode.com/2015) challenges, written in PHP.
 
-The individual challenges can be found in the `bin` directory.
+The individual challenges can be found in the `bin` directory. The tests are in the `tests` directory, and the source code in the `src` directory.
 
 
 ## Getting Started
