@@ -4,3 +4,4 @@ composer.phar
 /coverage/
 /testdox/
 /bin/template.php
+.phpunit.result.cache
